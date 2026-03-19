@@ -120,6 +120,25 @@ arenax-gaming/
 ⏳ Step 5: Backend APIs - PENDING
 ⏳ Step 6: Final Integration - PENDING
 
+## 🚀 Deployment
+
+### Deploy to Vercel (Recommended)
+
+**Quick Deploy (3 minutes):**
+
+1. Go to [vercel.com](https://vercel.com) and sign in with GitHub
+2. Click "Add New Project"
+3. Select this repository: `rking8379-tech/ArenaX-Gaming`
+4. Configure:
+   - Framework Preset: **Next.js**
+   - Root Directory: **`frontend`**
+   - Add environment variables from `.env.example`
+5. Click "Deploy" 🎉
+
+📖 **Full deployment guide:** See [QUICK_VERCEL_DEPLOY.md](./QUICK_VERCEL_DEPLOY.md)
+
+---
+
 ## 🎨 Theme
 
 - Primary: White (#FFFFFF)

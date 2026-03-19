@@ -64,3 +64,6 @@ frontend/out/
 # Documentation (optional - include if you want)
 # *.md
 # STEP*.md
+
+# Vercel
+.vercel
