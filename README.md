@@ -1,6 +1,3 @@
-# ArenaX-Gaming
-A platform for play game Tournaments online and earn prizes and money
->>>>>>> 26dd056a88b0bdd5871b51aab5204e9f16d4cd7e
 # ArenaX Gaming - Esports Tournament Platform
 
 A modern full-stack esports tournament website built with Next.js, Express.js, and Supabase.
@@ -152,3 +149,6 @@ ISC
 # ArenaX-Gaming
 A platform for play game Tournaments online and earn prizes and money
 >>>>>>> 26dd056a88b0bdd5871b51aab5204e9f16d4cd7e
+=======
+# tournament
+>>>>>>> 659365980490250682e8b36551a143f3125334e2
