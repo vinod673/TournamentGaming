@@ -97,7 +97,7 @@ Write-Host "For BACKEND project (arenax-gaming-backend):" -ForegroundColor White
 Write-Host "  SUPABASE_URL=https://pqmyslyhkxbkrbuladhq.supabase.co" -ForegroundColor Gray
 Write-Host "  SUPABASE_ANON_KEY=<your_anon_key>" -ForegroundColor Gray
 Write-Host "  SUPABASE_SERVICE_KEY=<your_service_key>" -ForegroundColor Gray
-Write-Host "  CASHFREE_APP_ID=123471541a4847375e09359a1275174321" -ForegroundColor Gray
+Write-Host "  CASHFREE_APP_ID=<your_cashfree_app_id>" -ForegroundColor Gray
 Write-Host "  CASHFREE_SECRET_KEY=<your_secret_key>" -ForegroundColor Gray
 Write-Host "  CASHFREE_ENV=PRODUCTION" -ForegroundColor Gray
 Write-Host "  FRONTEND_URL=<your_frontend_url>" -ForegroundColor Gray
@@ -105,7 +105,7 @@ Write-Host ""
 Write-Host "For FRONTEND project (arenax-gaming):" -ForegroundColor White
 Write-Host "  NEXT_PUBLIC_SUPABASE_URL=https://pqmyslyhkxbkrbuladhq.supabase.co" -ForegroundColor Gray
 Write-Host "  NEXT_PUBLIC_SUPABASE_ANON_KEY=<your_anon_key>" -ForegroundColor Gray
-Write-Host "  NEXT_PUBLIC_CASHFREE_APP_ID=123471541a4847375e09359a1275174321" -ForegroundColor Gray
+Write-Host "  NEXT_PUBLIC_CASHFREE_APP_ID=<your_cashfree_app_id>" -ForegroundColor Gray
 Write-Host "  NEXT_PUBLIC_BACKEND_URL=<your_backend_url>" -ForegroundColor Gray
 Write-Host ""
 Write-Host "Press any key to continue..." -ForegroundColor Gray

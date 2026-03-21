@@ -41,8 +41,8 @@ SUPABASE_URL=https://pqmyslyhkxbkrbuladhq.supabase.co
 SUPABASE_ANON_KEY=<your_key_from_frontend_.env.local>
 SUPABASE_SERVICE_KEY=<your_service_key_from_backend_.env>
 
-CASHFREE_APP_ID=123471541a4847375e09359a1275174321
-CASHFREE_SECRET_KEY=<your_secret_from_backend_.env>
+CASHFREE_APP_ID=<your_cashfree_app_id>
+CASHFREE_SECRET_KEY=<your_cashfree_secret_key>
 CASHFREE_ENV=PRODUCTION
 
 FRONTEND_URL=https://YOUR-FRONTEND-URL.vercel.app
@@ -55,7 +55,7 @@ NODE_ENV=production
 ```
 NEXT_PUBLIC_SUPABASE_URL=https://pqmyslyhkxbkrbuladhq.supabase.co
 NEXT_PUBLIC_SUPABASE_ANON_KEY=<your_key_from_frontend_.env.local>
-NEXT_PUBLIC_CASHFREE_APP_ID=123471541a4847375e09359a1275174321
+NEXT_PUBLIC_CASHFREE_APP_ID=<your_cashfree_app_id>
 NEXT_PUBLIC_BACKEND_URL=https://YOUR-BACKEND-URL.vercel.app
 ```
 

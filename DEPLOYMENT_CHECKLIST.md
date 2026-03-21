@@ -53,7 +53,7 @@ vercel deploy --prod
 - [ ] `SUPABASE_URL` = `https://pqmyslyhkxbkrbuladhq.supabase.co`
 - [ ] `SUPABASE_ANON_KEY` = (from your Supabase dashboard)
 - [ ] `SUPABASE_SERVICE_KEY` = (from your Supabase dashboard)
-- [ ] `CASHFREE_APP_ID` = `123471541a4847375e09359a1275174321`
+- [ ] `CASHFREE_APP_ID` = `<your_cashfree_app_id>`
 - [ ] `CASHFREE_SECRET_KEY` = (from your Cashfree dashboard)
 - [ ] `CASHFREE_ENV` = `PRODUCTION`
 - [ ] `FRONTEND_URL` = `https://arenax-gaming.vercel.app`
@@ -63,7 +63,7 @@ vercel deploy --prod
 #### Frontend Environment Variables (in Vercel Dashboard):
 - [ ] `NEXT_PUBLIC_SUPABASE_URL` = `https://pqmyslyhkxbkrbuladhq.supabase.co`
 - [ ] `NEXT_PUBLIC_SUPABASE_ANON_KEY` = (from your Supabase dashboard)
-- [ ] `NEXT_PUBLIC_CASHFREE_APP_ID` = `123471541a4847375e09359a1275174321`
+- [ ] `NEXT_PUBLIC_CASHFREE_APP_ID` = `<your_cashfree_app_id>`
 - [ ] `NEXT_PUBLIC_BACKEND_URL` = `https://arenax-gaming-backend.vercel.app`
 
 ### Step 5: Redeploy After Environment Variables ⚠️

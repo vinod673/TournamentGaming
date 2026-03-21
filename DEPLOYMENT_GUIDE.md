@@ -119,8 +119,8 @@ SUPABASE_URL=https://pqmyslyhkxbkrbuladhq.supabase.co
 SUPABASE_ANON_KEY=your_anon_key_here
 SUPABASE_SERVICE_KEY=your_service_key_here
 
-CASHFREE_APP_ID=123471541a4847375e09359a1275174321
-CASHFREE_SECRET_KEY=cfsk_ma_prod_003294041750ae4ce84d554980585d57_27993161
+CASHFREE_APP_ID=your_cashfree_app_id_here
+CASHFREE_SECRET_KEY=your_cashfree_secret_key_here
 CASHFREE_ENV=PRODUCTION
 CASHFREE_API_URL=https://api.cashfree.com/pg
 CASHFREE_API_VERSION=2025-01-01
@@ -173,7 +173,7 @@ In Vercel Dashboard → Frontend Project → Settings → Environment Variables:
 NEXT_PUBLIC_SUPABASE_URL=https://pqmyslyhkxbkrbuladhq.supabase.co
 NEXT_PUBLIC_SUPABASE_ANON_KEY=your_anon_key_here
 
-NEXT_PUBLIC_CASHFREE_APP_ID=123471541a4847375e09359a1275174321
+NEXT_PUBLIC_CASHFREE_APP_ID=<your_cashfree_app_id>
 
 NEXT_PUBLIC_BACKEND_URL=https://arenax-gaming-backend.vercel.app
 NEXT_PUBLIC_SITE_URL=https://arenax-gaming.vercel.app
