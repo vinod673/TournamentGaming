@@ -67,3 +67,4 @@ frontend/out/
 
 # Vercel
 .vercel
+.env*.local
