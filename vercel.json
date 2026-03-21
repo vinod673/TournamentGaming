@@ -1,20 +1,8 @@
 {
   "version": 2,
-  "builds": [
-    {
-      "src": "frontend/package.json",
-      "use": "@vercel/next"
-    }
-  ],
-  "env": {
-    "NEXT_PUBLIC_SUPABASE_URL": "https://pqmyslyhkxbkrbuladhq.supabase.co",
-    "NEXT_PUBLIC_SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBxbXlzbHloa3hia3JidWxhZGhxIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzM1NTEzMDMsImV4cCI6MjA4OTEyNzMwM30.F8ANX81xUXe7aNpLFlJatuTgDPOqUoTaijZt91i6tfU",
-    "NEXT_PUBLIC_API_URL": "/api"
-  },
-  "rewrites": [
-    {
-      "source": "/api/:path*",
-      "destination": "http://localhost:5000/api/:path*"
-    }
-  ]
+  "framework": "nextjs",
+  "buildCommand": "cd frontend && npm install && npm run build",
+  "outputDirectory": "frontend/.next",
+  "devCommand": "cd frontend && npm run dev",
+  "installCommand": "npm install --prefix frontend"
 }
