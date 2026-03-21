@@ -6,7 +6,6 @@ const dotenv = require('dotenv');
 dotenv.config();
 
 const app = express();
-const PORT = process.env.PORT || 5000;
 
 // Middleware
 const corsOptions = {
@@ -65,13 +64,17 @@ app.use((err, req, res, next) => {
   });
 });
 
-// Start server
-app.listen(PORT, () => {
-  console.log(`🎮 ArenaX Gaming Backend running on port ${PORT}`);
-  console.log(`📊 Environment: ${process.env.NODE_ENV}`);
-  console.log(`🔗 Health check: http://localhost:${PORT}/api/health`);
-  console.log(`💰 Payment API: http://localhost:${PORT}/api/payment`);
-  console.log(`📚 API Documentation: http://localhost:${PORT}/`);
-});
-
+// Export the Express app for Vercel serverless
 module.exports = app;
+
+// Only start listening if not in Vercel/serverless environment
+if (process.env.VERCEL !== '1') {
+  const PORT = process.env.PORT || 5000;
+  app.listen(PORT, () => {
+    console.log(`🎮 ArenaX Gaming Backend running on port ${PORT}`);
+    console.log(`📊 Environment: ${process.env.NODE_ENV}`);
+    console.log(`🔗 Health check: http://localhost:${PORT}/api/health`);
+    console.log(`💰 Payment API: http://localhost:${PORT}/api/payment`);
+    console.log(`📚 API Documentation: http://localhost:${PORT}/`);
+  });
+}
